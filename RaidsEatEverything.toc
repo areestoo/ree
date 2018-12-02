@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: RaidsEatEverything
+## Version: 0.1
+## Notes: Raid Consumable Management
+## Author: https://gitlab.com/areesto
+## SavedVariablesPerCharacter:
+RaidsEatEverything.xml
+RaidsEatEverything.lua
