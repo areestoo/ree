@@ -52,6 +52,7 @@ end
 -- uses consumable when clicked
 function reeOnClick()
   reeUseItem(this:GetID())
+	this:SetChecked(0)
 end
 
 function reeOnEvent()
