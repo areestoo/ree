@@ -25,10 +25,10 @@
 				reeOnClick()
 			</OnClick>
 			<OnEnter>
-				--reeOnHover()
+				reeOnHover()
 			</OnEnter>
 			<OnLeave>
-				--reeOffHover()
+				reeOffHover()
 			</OnLeave>
 		</Scripts>
 	</CheckButton>
@@ -290,4 +290,12 @@
 		</Scripts>
 
 	</Frame>
+
+	<GameTooltip name="reeTooltip" inherits="GameTooltipTemplate" hidden="true">
+	<Scripts>
+		<OnLoad>
+			this:SetOwner(WorldFrame,"ANCHOR_NONE")
+		</OnLoad>
+	</Scripts>
+</GameTooltip>
 </UI>

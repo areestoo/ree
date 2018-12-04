@@ -46,7 +46,7 @@ end
 
 -- removes tooltip after hover
 function reeOffHover()
-  reePrint("unhovered")
+  GameTooltip:Hide()
 end
 
 -- uses consumable when clicked
@@ -65,7 +65,10 @@ end
 
 -- displays tooltip when hovered over
 function reeOnHover()
-  reePrint("hovered")
+	local reeConsumeIndex = this:GetID()
+  GameTooltip_SetDefaultAnchor( GameTooltip, UIParent )
+	GameTooltip:SetBagItem(reeItems[reeConsumeIndex].bag,reeItems[reeConsumeIndex].slot)
+ 	GameTooltip:Show()
 end
 
 -- runs when addon is loaded
