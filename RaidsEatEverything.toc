@@ -3,6 +3,6 @@
 ## Version: 0.1
 ## Notes: Raid Consumable Management
 ## Author: https://gitlab.com/areesto
-## SavedVariablesPerCharacter:
+## SavedVariablesPerCharacter: reeLocked
 RaidsEatEverything.xml
 RaidsEatEverything.lua
